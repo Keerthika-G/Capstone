@@ -3,7 +3,6 @@ from restaurant.models import Menu, Booking
 from decimal import Decimal
 from datetime import datetime
 
-
 class MenuTest(TestCase):
 
     def test_create_item(self):
